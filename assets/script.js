@@ -12,7 +12,7 @@ $(function () {
     localStorage.setItem(parentId, userInput);
   })
 
-  // updates the class of each time-block based on the current hour
+  //updates the class of each time-block based on the current hour
   var currentHour = dayjs().format('H');
   var targetId = "hour-" + currentHour;
   var timeBlock = $('.time-block')

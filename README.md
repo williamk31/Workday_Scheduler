@@ -6,7 +6,8 @@ This application is designed to help the user schedule their workday. Each hour 
 ## Usage
 To use this application, simply type in the activity you need to schedule for that particular hour block, and then hit the save button to the right. Activities you've saved from earlier will appear in their respective time blocks upon load. 
 
-View a screenshot of the functioning application:
+View a gif of the application's functionality:
+![application gif](assets/workday_scheduler.gif)
 
 A link to the deployed website can be found here:
 
