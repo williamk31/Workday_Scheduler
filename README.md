@@ -9,7 +9,7 @@ To use this application, simply type in the activity you need to schedule for th
 View a gif of the application's functionality:
 ![application gif](assets/workday_scheduler.gif)
 
-A link to the deployed website can be found here:
+A link to the deployed website can be found here: https://williamk31.github.io/Workday_Scheduler/
 
 ## Contributors
 Made by William Kalish
