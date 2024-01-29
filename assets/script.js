@@ -7,8 +7,6 @@ $(function () {
     event.stopPropagation();
     var parentId = $(this).closest(".time-block").attr('id');
     var userInput = $(this).siblings('textarea').val();
-    console.log(parentId);
-    console.log(userInput);
     localStorage.setItem(parentId, userInput);
   })
 
@@ -26,7 +24,6 @@ $(function () {
 
  //gets saved text from local storage
   for (var i=9; i<18; i++){
-    console.log(i);
     $('#hour-' + i + ' .description').val(localStorage.getItem('hour-' + i))
   }
 
